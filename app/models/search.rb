@@ -10,16 +10,17 @@ class Search
     if has_page?
       # binding.pry
       if @html.include?("Ruby on Rails")
-        @result = "Yes"
+        "Yes"
       else
-        @result = "No"
+        "No"
       end
     else
-      @result = "No one knows what you're talking about."
+      "No one knows what you're talking about."
     end
   end
 
   def has_page?
+    binding.pry
     begin
       @html = open("http://builtwith.com/#{@domain}").read
       true
