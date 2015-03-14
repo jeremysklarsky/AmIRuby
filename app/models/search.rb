@@ -20,7 +20,7 @@ class Search
   end
 
   def has_page?
-    binding.pry
+    # binding.pry
     begin
       @html = open("http://builtwith.com/#{@domain}").read
       true
