@@ -1,6 +1,6 @@
 <h1>Am I Ruby?</h1>
 <%= form_for(:search, url: results_path, method: :get) do |f| %>
-  <%= f.text_field :keyword, id: 'keyword' %>
+  <%= f.text_field :keyword, id: 'keyword' %><br><br>
   <%=f.submit "Search"%>
 <% end %>
 
