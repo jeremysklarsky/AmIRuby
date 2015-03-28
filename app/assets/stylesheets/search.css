@@ -1,22 +1,47 @@
 *{
 	text-align: center;
+  color: white;
 }
 
+div.cover-container h1 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 56px;
+  padding: 40px;
+}
 
-h1 {
-	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+body {
+  background-image: url('bg-red.jpg');
+  background-color: rgb(255, 0, 128);
+  background-repeat: repeat-x;
 }
 
 .search-btn {
-  color: black;
-  background-color: white;
-  border: 1px solid black;
+  color: white;
+  background: transparent;
+  border: 2px solid white;
   text-transform: uppercase;
-
+  font-weight: 500;
+  font-size: 20px;
 }
 
-.search-btn:hover {
-  color: fuchsia;
+input:focus {
+  border-color: white;
+  outline: 0 none;
+  animation: blinkC 1.05s infinite;
+}
+
+input         {
+  font-size:36px;
+  padding:10px 10px 10px 5px;
+  width:300px;
+  border:none;
+  border-bottom:3px solid white;
+  background: transparent;
+}
+
+#result {
+  padding: 100px;
+  font-size: 48px;
 }
 
 .audios {
