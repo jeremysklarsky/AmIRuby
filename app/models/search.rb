@@ -8,11 +8,10 @@ class Search
 
   def am_i_ruby
     if has_page?
-      # binding.pry
       if @html.include?("Ruby on Rails")
         "Yes"
       else
-        "No"
+        "Nope."
       end
     else
       "No one knows what you're talking about."
