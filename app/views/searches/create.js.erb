@@ -1,1 +1,2 @@
-$('#AmIRuby').append('<%= j render :partial => "result", :locals => {:result => @result} %>')
+$('#result').hide().html('<%= j @result %>').fadeIn(250)
+

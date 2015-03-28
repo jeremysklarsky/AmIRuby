@@ -1,13 +1,13 @@
-$(function(){
+// $(function(){
 
-  submitListener();
+//   submitListener();
 
-})
+// })
 
-function submitListener(){
-  $('#new_search').on("submit", submitSearch)
-}
+// function submitListener(){
+//   $('#new_search').on("submit", submitSearch)
+// }
 
-function submitSearch(){
+// function submitSearch(){
   
-}
+// }

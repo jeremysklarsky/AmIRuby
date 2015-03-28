@@ -6,3 +6,15 @@
 h1 {
 	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+.search-btn {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  text-transform: uppercase;
+
+}
+
+.search-btn:hover {
+  color: fuchsia;
+}

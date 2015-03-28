@@ -1,6 +1,6 @@
 <h1>Am I Ruby?</h1>
 <%= form_for(@search, remote: true) do |f| %>
   <%= f.text_field :keyword, id: 'keyword' %><br><br>
-  <%=f.submit "Search"%>
+  <%=f.submit "Search", class: "search-btn"%>
 <% end %>
-
+<section id="result"></section>
