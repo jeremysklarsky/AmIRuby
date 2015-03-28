@@ -1,6 +1,13 @@
+<div class="site-wrapper">
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+
 <h1>Am I Ruby?</h1>
 <%= form_for(@search, remote: true) do |f| %>
   <%= f.text_field :keyword, id: 'keyword' %><br><br>
   <%=f.submit "Search", class: "search-btn"%>
 <% end %>
 <section id="result"></section>
+    </div>
+  </div>
+</div>
