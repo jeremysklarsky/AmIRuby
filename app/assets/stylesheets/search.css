@@ -18,3 +18,7 @@ h1 {
 .search-btn:hover {
   color: fuchsia;
 }
+
+.audios {
+  display: none;
+}
