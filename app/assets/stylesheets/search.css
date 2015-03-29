@@ -27,7 +27,14 @@ body {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 20px;
+  transition: all 0.25s ease;
 }
+
+.search-btn:hover {
+  background: $buttonBackground;
+  color: transparentize( $buttonColor,0.8 );
+}
+
 
 input:focus {
   border-color: white;
