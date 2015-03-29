@@ -1,40 +1,42 @@
-# Amiruby
+# Am I Ruby?
 
 ## Description
 
-Add a short description of your app.
+Use this handy web app to find out whether your favorite domains have Ruby in their stack.
 
-## Screenshots
+#### To use:
 
-Add some spiffy screenshots of your app here.
+_**Step 1:**_  
+Type in a domain using the format "example.com".   
+**Do not include 'http://' or any subdomain.**
 
-## Background
+_**Step 2:**_  
+Hit enter or click the 'Search' button.
 
-Why did you want to make this app? What was your development process
-like?
+_**Step 3:**_  
+Repeat as needed.
 
-## Features
-
-Bullet point some of the key features of your app here.
-
-## Usage
-
-How do users use your app?
 
 ## Development/Contribution
 
-Explain how people can contribute to your app. How should they write tests?
-Any things in particular you'd like to see in pull requests?
+Contributions welcome. Please fork this repo, create a new branch, then submit changes as a pull request.
+
 
 ## Future
 
-What features are you currently working on? Only mention things that you
-actually are implementing. No pie-in-the-sky-never-gonna-happen stuff.
+Planned feature releases:  
+1. Add navigation to domain's page on [BuiltWith.com](http://builtwith.com/).  
+2. Enhance button hover effects.  
+3. Enhance sound effects.  
+4. Expand to other languages (Javascript, Python, PHP, Perl, etc.)  
+5. Add full rspec test suite  
+ 
 
-## Author
+## Team
 
-Link to your blog, twitter, etc!
+Team AmIRuby is [Sophie DeBenedetto](https://github.com/SophieDeBenedetto), [Jeremy Sklarsky](https://github.com/jeremysklarsky), [Rachel Nackman](https://github.com/rnackman), and [Kate Travers](https://github.com/ktravers). Made with ♥ in NYC.
+
 
 ## License
 
-Amiruby is MIT Licensed. See LICENSE for details.
+AmIRuby is MIT Licensed. See LICENSE for details.
