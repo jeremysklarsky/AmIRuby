@@ -3,10 +3,6 @@ var result = $('#result')
 result.hide().html('<%= j @result %>').fadeIn(250);
 playAudio(result);
 
-
-var credits = $('footer ul li:first-child a');
-
-
 function playAudio(result){
   if (result.html() === "Yes"){
 
