@@ -6,14 +6,14 @@ Use this handy web app to find out whether your favorite domains have Ruby in th
 
 #### To use:
 
-_**Step 1:**_
+_**Step 1:**_  
 Type in a domain using the format "example.com".   
 **Do not include 'http://' or any subdomain.**
 
-_**Step 2:**_
+_**Step 2:**_  
 Hit enter or click the 'Search' button.
 
-_**Step 3:**_
+_**Step 3:**_  
 Repeat as needed.
 
 
