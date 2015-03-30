@@ -4,7 +4,7 @@ result.hide().html('<%= j @result %>').fadeIn(250);
 playAudio(result);
 
 function playAudio(result){
-  if (result.html() === "Yes"){
+  if (result.html() === "Yes!"){
 
     $('#yes-audio').trigger('play')
   }

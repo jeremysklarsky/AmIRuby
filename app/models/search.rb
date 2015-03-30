@@ -11,7 +11,7 @@ class Search
   def am_i_ruby(input)
     if has_page?(input)
       if @html.include?("Ruby on Rails")
-        "Yes"
+        "Yes!"
       else
         "Nope."
       end
