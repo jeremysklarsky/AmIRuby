@@ -29,6 +29,27 @@ body {
   font-size: 20px;
 }
 
+::-webkit-input-placeholder {
+   font-style: italic;
+   color: rgba(0, 0, 0, 0.35);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-style: italic;
+   color: rgba(0, 0, 0, 0.25);  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-style: italic;
+   color: rgba(0, 0, 0, 0.25);  
+}
+
+:-ms-input-placeholder {  
+   font-style: italic;
+   color: rgba(0, 0, 0, 0.25); 
+}
+
+
 input:focus {
   border-color: white;
   outline: 0 none;
