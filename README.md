@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/jeremysklarsky/AmIRuby/badges/gpa.svg)](https://codeclimate.com/github/jeremysklarsky/AmIRuby)
+
 # Am I Ruby?
 
 ## Description
